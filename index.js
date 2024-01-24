@@ -20,7 +20,7 @@ if (answer == passWord) {
 
 answer = await rl.question('How would you like to utilize NodeJS? Please make sure that your word amount is minimally over 100 words. ');
 
-if (answer >= 100) {
+if (answer == 100) {
     console.log('Interesting!');
 } else {
     console.log('Not enough words, please try again.');
