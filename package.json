@@ -1,16 +1,14 @@
 {
-  "name": "nodejs",
+  "name": "nodejs-opdr",
   "version": "1.0.0",
-  "description": "mijn eerste node app",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "first",
-    "app"
-  ],
   "author": "Reshad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
